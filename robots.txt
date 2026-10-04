@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow:
+
+Sitemap: https://sakibsheikho69252-netizen.github.io/neon-match/sitemap.xml
