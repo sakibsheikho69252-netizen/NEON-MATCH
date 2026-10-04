@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#0c1428"/>
+    </linearGradient>
+    <linearGradient id="cy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2ee6ff"/>
+      <stop offset="1" stop-color="#2f7fff"/>
+    </linearGradient>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#a02fff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <g filter="url(#glow)">
+    <rect x="98" y="98" width="140" height="140" rx="20" fill="none" stroke="url(#cy)" stroke-width="10"/>
+    <rect x="274" y="98" width="140" height="140" rx="20" fill="none" stroke="url(#mg)" stroke-width="10"/>
+    <rect x="98" y="274" width="140" height="140" rx="20" fill="none" stroke="url(#mg)" stroke-width="10"/>
+    <rect x="274" y="274" width="140" height="140" rx="20" fill="url(#cy)" stroke="url(#cy)" stroke-width="10"/>
+  </g>
+</svg>
