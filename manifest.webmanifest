@@ -5,13 +5,13 @@
   "start_url": "./index.html",
   "scope": "./",
   "display": "fullscreen",
-  "display_override": ["fullscreen","standalone"],
+  "display_override": ["fullscreen", "standalone"],
   "orientation": "portrait",
   "background_color": "#05070f",
   "theme_color": "#05070f",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["games","puzzle","entertainment"],
+  "categories": ["games", "puzzle"],
   "icons": [
     {
       "src": "icon-192png.png",
@@ -23,18 +23,6 @@
       "src": "icon-512png.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "file_000000001354821196e71d262296db01.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]
